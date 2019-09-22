@@ -2,7 +2,7 @@
 
 namespace Asakusuma\SugarWrapper;
 
-use \Alexsoft\Curl;
+use processfast\yii\Alexsoft\Curl;
 
 /**
  * SugarCRM REST API Class
@@ -24,7 +24,7 @@ class Rest
     private $rest_url;
 
     /**
-     * A SugarCRM Username. It's recommended that you create a seperate SugarCRM
+     * A SugarCRM Username. It's recommended that you create a separate SugarCRM
      * User account to make REST calls.
      *
      * @var string
@@ -67,7 +67,7 @@ class Rest
     /**
      * The curl object we use to talk to the API
      *
-     * @var \Alexsoft\Curl
+     * @var \processfast\Alexsoft\Curl
      */
     private $request;
 
